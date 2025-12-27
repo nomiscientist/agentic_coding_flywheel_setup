@@ -21,10 +21,7 @@ bun.lockb
 !bun.lock
 
 # ----- Environment & secrets -----
-.env
-.env.*
 !.env.example
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -121,3 +118,4 @@ Cargo.lock
 .bv/
 .vercel
 .env*.local
+config.bat
